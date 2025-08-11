@@ -36,6 +36,17 @@ docker run -p 8050:8050 alatasshadiq/luxury-loan-dashboard-app
 ```
 Access the app at: http://localhost:8050
 
+### **2. Build from Source**
+```bash
+git clone https://github.com/shadiqalatas/loan-dashboard-app.git
+cd loan-dashboard-app
+
+# Build and run
+docker build -t loan-dashboard-app .
+docker run -p 8050:8050 loan-dashboard-app
+```
+
+
 ---
 
 ## **Chart Details**
@@ -64,3 +75,4 @@ Access the app at: http://localhost:8050
 - **Backend**: Python (Pandas, Plotly, Dash).  
 - **Frontend**: Plotly Dash.  
 - **Deployment**: Docker.
+
